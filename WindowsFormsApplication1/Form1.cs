@@ -82,7 +82,17 @@ namespace WindowsFormsApplication1
             process.StartInfo.FileName = "cmd.exe";
             process.StartInfo.Arguments = "/c \"" + jre + "\" -jar " + path;
             process.StartInfo.UseShellExecute = false;
+            process.StartInfo.RedirectStandardOutput = true;
+            process.StartInfo.RedirectStandardError = true;
             process.Start();
+            string output = process.StandardOutput.ReadToEnd();
+            string err = process.StandardError.ReadToEnd();
+            process.WaitForExit();
+            if (err != null && err.Length > 1)
+            {
+                MessageBox.Show(err, "Wurst Launcher",
+                      MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+            }
             Environment.Exit(0);
         }
 
@@ -116,7 +126,17 @@ namespace WindowsFormsApplication1
             process.StartInfo.FileName = "cmd.exe";
             process.StartInfo.Arguments = "/c java -jar " + path;
             process.StartInfo.UseShellExecute = false;
+            process.StartInfo.RedirectStandardOutput = true;
+            process.StartInfo.RedirectStandardError = true;
             process.Start();
+            string output = process.StandardOutput.ReadToEnd();
+            string err = process.StandardError.ReadToEnd();
+            process.WaitForExit();
+            if (err!= null && err.Length > 1)
+            {
+                MessageBox.Show(err, "Wurst Launcher",
+                      MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+            }
             Environment.Exit(0);
         }
 
