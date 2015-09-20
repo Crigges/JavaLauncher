@@ -25,3 +25,6 @@ C:\Users\Crigges\git\JavaLauncher\WindowsFormsApplication1\obj\Debug\WindowsForm
 C:\Users\Crigges\git\JavaLauncher\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
 C:\Users\Crigges\git\JavaLauncher\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
 C:\Users\Crigges\git\JavaLauncher\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Crigges-Pc\git\JavaLauncher\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Crigges-Pc\git\JavaLauncher\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Crigges-Pc\git\JavaLauncher\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

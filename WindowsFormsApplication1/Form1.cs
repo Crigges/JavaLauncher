@@ -23,14 +23,19 @@ namespace WindowsFormsApplication1
             }
             else
             {
-                jar = args[0];
+                jar = "";
+                foreach(string s in args)
+                {
+                    jar += s;
+                    jar += " ";
+                }
                 string key = getKey();
                 if (key == null)
                 { 
                     if (checkStandardJava())
                     {
                         setKey("standard");
-                        startJarWithStandardJava(args[0]);
+                        startJarWithStandardJava(jar);
                     }
                     else
                     {
@@ -39,11 +44,11 @@ namespace WindowsFormsApplication1
                 }
                 else if (key.Equals("standard"))
                 {
-                    startJarWithStandardJava(args[0]);
+                    startJarWithStandardJava(jar);
                 }
                 else
                 {
-                    startJarWithJRE(key, args[0]);
+                    startJarWithJRE(key, jar);
                 }
             }
         }
@@ -93,6 +98,11 @@ namespace WindowsFormsApplication1
                 MessageBox.Show(err, "Wurst Launcher",
                       MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             }
+            if (output != null && output.Length > 1)
+            {
+                MessageBox.Show(output, "Wurst Launcher",
+                      MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+            }
             Environment.Exit(0);
         }
 
@@ -135,6 +145,11 @@ namespace WindowsFormsApplication1
             if (err!= null && err.Length > 1)
             {
                 MessageBox.Show(err, "Wurst Launcher",
+                      MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+            }
+            if (output != null && output.Length > 1)
+            {
+                MessageBox.Show(output, "Wurst Launcher",
                       MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             }
             Environment.Exit(0);

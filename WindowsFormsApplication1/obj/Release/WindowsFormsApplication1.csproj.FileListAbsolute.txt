@@ -16,3 +16,12 @@ C:\Users\Crigges\git\JavaLauncher\WindowsFormsApplication1\obj\Release\WindowsFo
 C:\Users\Crigges\git\JavaLauncher\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Form1.resources
 C:\Users\Crigges\git\JavaLauncher\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Properties.Resources.resources
 C:\Users\Crigges\git\JavaLauncher\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Crigges-Pc\git\JavaLauncher\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.exe.config
+C:\Users\Crigges-Pc\git\JavaLauncher\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.exe
+C:\Users\Crigges-Pc\git\JavaLauncher\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.pdb
+C:\Users\Crigges-Pc\git\JavaLauncher\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Crigges-Pc\git\JavaLauncher\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Form1.resources
+C:\Users\Crigges-Pc\git\JavaLauncher\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Crigges-Pc\git\JavaLauncher\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Crigges-Pc\git\JavaLauncher\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.exe
+C:\Users\Crigges-Pc\git\JavaLauncher\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.pdb
